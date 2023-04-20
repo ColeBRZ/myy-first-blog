@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Django Girls blog{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1><a href="/">Django Girls Blog</a></h1>
+    </header>
+
+    <div class="content">
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Django Girls</p>
+    </footer>
+</body>
+</html>
